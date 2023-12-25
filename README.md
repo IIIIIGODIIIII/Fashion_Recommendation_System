@@ -39,4 +39,24 @@ This project is beneficial for developers and machine learning enthusiasts looki
    ````python
    pip install tensorflow==2.10 scikit-learn==1.3.0 tqdm==4.66.1 numpy==1.23.5 pickle
 
+### Usage
 
+1. Run the jupyter notebook for the image recommendation system (Testing.ipynb). 
+
+2. Follow the prompts to input an image and receive five recommended images from the dataset.
+
+## Additional Information
+
+### Links and Resources
+
+1. [Fashion Product Images Dataset on Kaggle](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
+
+2. Link to the Google Drive for required pickle files: [Google Drive](https://drive.google.com/drive/folders/1kGeD864GMSXDCqgQSXWuonLPm8lZynPg?usp=drive_link)
+
+### Future Plans
+
+Future updates may include:
+
+- Optimization of recommendation algorithms.
+- Support for custom image datasets.
+- Integration with web or mobile applications for user-friendly interactions.
