@@ -19,9 +19,10 @@ This project is beneficial for developers and machine learning enthusiasts looki
 ## Technical Details
 
 - Python 3.9.0 is used for development.
-- TensorFlow 2.10, Scikit-learn 1.3.0, and the ResNet-50 model from TensorFlow are the primary dependencies.
+- TensorFlow 2.10, Scikit-learn 1.3.0, Numpy, Pickle, tqdm and the ResNet-50 model from TensorFlow are the primary dependencies.
 - Two pickle files trained on the Fashion Product Images Dataset are required for the system to recommend similar images.
-
+- CUDA installation might be required so that Tensorflow can use the dedicated GPU (CUDA can speed up the process of pickle file generation)
+  
 ## Installation and Usage
 
 ### Installation
@@ -40,10 +41,11 @@ This project is beneficial for developers and machine learning enthusiasts looki
    pip install tensorflow==2.10 scikit-learn==1.3.0 tqdm==4.66.1 numpy==1.23.5 pickle
 
 ### Usage
+1. First run Generate Embeddings.ipynb to generate the pickle files. If you have already downloaded them from my google drive then go to 2nd step.
+   
+2. Run the jupyter notebook for the image recommendation system (Testing.ipynb). 
 
-1. Run the jupyter notebook for the image recommendation system (Testing.ipynb). 
-
-2. Follow the prompts to input an image and receive five recommended images from the dataset.
+3. Follow the prompts to input an image and receive five recommended images from the dataset.
 
 ## Additional Information
 
@@ -52,7 +54,8 @@ This project is beneficial for developers and machine learning enthusiasts looki
 1. [Fashion Product Images Dataset on Kaggle](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
 
 2. Link to the Google Drive for required pickle files: [Google Drive](https://drive.google.com/drive/folders/1kGeD864GMSXDCqgQSXWuonLPm8lZynPg?usp=drive_link)
-
+   You might need to generate Filenames.pkl file again to make the project work
+   
 ### Future Plans
 
 Future updates may include:
