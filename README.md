@@ -1,6 +1,6 @@
 # Image Recommendation System using TensorFlow
 
-This project utilizes TensorFlow 2.10 and Scikit-learn 1.3.0 to create an image recommendation system. The system is designed to take an input image from the user and recommend five similar images from the Fashion Product Images Dataset available on [Kaggle](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset).
+This project utilizes TensorFlow 2.10, Scikit-learn, numpy, pickle, tqdm to create an image recommendation system. The system is designed to take an input image from the user and recommend five similar images from the Fashion Product Images Dataset available on [Kaggle](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset).
 
 ## Purpose
 
@@ -29,5 +29,14 @@ This project is beneficial for developers and machine learning enthusiasts looki
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/your_project.git
-   cd your_project
+   git clone [https://github.com/your_username/your_project.git](https://github.com/IIIIIGODIIIII/Fashion_Recommendation_System.git)https://github.com/IIIIIGODIIIII/Fashion_Recommendation_System.git
+   cd Fashion_Recommendation_System
+
+2. Download the required pickle files from the provided Google Drive link.
+   
+3. Install dependencies:
+
+   ````python
+   pip install tensorflow==2.10 scikit-learn==1.3.0 tqdm==4.66.1 numpy==1.23.5 pickle
+
+
