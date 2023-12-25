@@ -29,7 +29,7 @@ This project is beneficial for developers and machine learning enthusiasts looki
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/your_username/your_project.git](https://github.com/IIIIIGODIIIII/Fashion_Recommendation_System.git)https://github.com/IIIIIGODIIIII/Fashion_Recommendation_System.git
+   git clone https://github.com/IIIIIGODIIIII/Fashion_Recommendation_System.git)https://github.com/IIIIIGODIIIII/Fashion_Recommendation_System.git
    cd Fashion_Recommendation_System
 
 2. Download the required pickle files from the provided Google Drive link.
