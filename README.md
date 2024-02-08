@@ -53,7 +53,7 @@ This project is beneficial for developers and machine learning enthusiasts looki
 
 1. [Fashion Product Images Dataset on Kaggle](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
 
-2. Link to the Google Drive for required pickle files: [Google Drive](https://drive.google.com/drive/folders/1kGeD864GMSXDCqgQSXWuonLPm8lZynPg?usp=drive_link)
+2. Link to the Google Drive for required pickle files: [Google Drive](https://drive.google.com/drive/folders/1xyDKN-6CvGBauixo8JohUwYsMzK3HcQ7?usp=sharing)
    You might need to generate Filenames.pkl file again to make the project work
    
 ### Future Plans
