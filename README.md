@@ -55,6 +55,9 @@ This project is beneficial for developers and machine learning enthusiasts looki
 
 2. Link to the Google Drive for required pickle files: [Google Drive](https://drive.google.com/drive/folders/1xyDKN-6CvGBauixo8JohUwYsMzK3HcQ7?usp=sharing)
    You might need to generate Filenames.pkl file again to make the project work
+
+### Documentation
+For detailed information on the implementation and the theory behind the Recommendation System, refer to the Fashion Recommendation System.docx included in the repository.
    
 ### Future Plans
 
